@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodaCon Blog</title>
+  <meta name="description" content="Insights on AI-powered software engineering and consulting from CodaCon.">
+  <link rel="canonical" href="https://codacon.net/blog">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CodaCon">
+  <meta property="og:title" content="CodaCon Blog">
+  <meta property="og:description" content="Insights on AI-powered software engineering and consulting from CodaCon.">
+  <meta property="og:url" content="https://codacon.net/blog">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "CodaCon Blog",
+    "url": "https://codacon.net/blog",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CodaCon",
+      "url": "https://codacon.net"
+    },
+    "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Welcome to the CodaCon Blog",
+      "datePublished": "2026-07-22",
+      "description": "Introducing the CodaCon blog — where we share insights on AI-powered software engineering, consulting, and building better products.",
+      "author": {
+        "@type": "Organization",
+        "name": "CodaCon AI Inc.",
+        "url": "https://codacon.net"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CodaCon",
+        "url": "https://codacon.net"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "mainEntityOfPage": "https://codacon.net/blog"
+    }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --bg-secondary: #f8f9fa;
+      --text: #1a1a1a;
+      --text-secondary: #555;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+      --code-bg: #f1f5f9;
+      --shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1117;
+        --bg-secondary: #1a1d27;
+        --text: #e4e4e7;
+        --text-secondary: #a1a1aa;
+        --accent: #60a5fa;
+        --border: #2e3039;
+        --code-bg: #1e2028;
+        --shadow: 0 1px 3px rgba(0,0,0,0.3);
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    header.site-header {
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header.site-header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    header.site-header h1 a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    header.site-header p {
+      color: var(--text-secondary);
+      margin-top: 0.25rem;
+      font-size: 0.95rem;
+    }
+
+    article {
+      margin-bottom: 3rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    article:last-child {
+      border-bottom: none;
+    }
+
+    article header h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      display: flex;
+      gap: 1rem;
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .license {
+      background: var(--bg-secondary);
+      padding: 0.1rem 0.5rem;
+      border-radius: 3px;
+      font-size: 0.75rem;
+      border: 1px solid var(--border);
+    }
+
+    article div[itemprop="articleBody"] p {
+      margin-bottom: 1rem;
+    }
+
+    article div[itemprop="articleBody"] h2 { font-size: 1.3rem; margin: 1.5rem 0 0.75rem; }
+    article div[itemprop="articleBody"] h3 { font-size: 1.1rem; margin: 1.25rem 0 0.5rem; }
+
+    article ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    article li {
+      margin-bottom: 0.35rem;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    code {
+      background: var(--code-bg);
+      padding: 0.15rem 0.35rem;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+
+    strong { font-weight: 600; }
+
+    footer.site-footer {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    footer.site-footer a { color: var(--text-secondary); }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="https://codacon.net">CodaCon</a></h1>
+    <p>AI-powered software engineering and consulting</p>
+  </header>
+
+  <main>
+
+    <article itemscope itemtype="https://schema.org/BlogPosting">
+      <header>
+        <h2 itemprop="headline">Welcome to the CodaCon Blog</h2>
+        <div class="meta">
+          <time itemprop="datePublished" datetime="2026-07-22">2026-07-22</time>
+          <span itemprop="author" itemscope itemtype="https://schema.org/Organization">
+            <span itemprop="name">CodaCon AI Inc.</span>
+          </span>
+          <span class="license" title="CC-BY-4.0">CC BY 4.0</span>
+        </div>
+      </header>
+      <div itemprop="articleBody">
+        <p>We started CodaCon to bridge the gap between what AI can do and what teams actually ship. The technology is moving fast, but most organizations are still figuring out where it fits — and where it doesn't.
+</p>
+<p>This blog is where we'll share what we learn: practical insights from real projects, honest takes on what works, and the occasional deep dive into the tools and techniques that make AI-assisted development productive rather than just impressive.
+</p>
+<p>We'll cover topics like:
+</p>
+<ul>
+<li>How to structure codebases so AI tools can actually help</li>
+<li>When to automate and when to keep a human in the loop</li>
+<li>Lessons from deploying AI in regulated industries</li>
+<li>The engineering practices that survive contact with production</li>
+</ul>
+<p>No hype, no hand-waving. Just what we've seen work.
+</p>
+<p>If you're building something and want to talk about how AI fits into it, <a href="https://codacon.net">reach out</a>.
+</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 <a href="https://codacon.net">CodaCon AI Inc.</a> &middot;
+    Code: <a href="https://github.com/codaconai/blog-codacon-net">Apache-2.0</a> &middot;
+    Content: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+  </footer>
+</body>
+</html>

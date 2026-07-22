@@ -1,0 +1,18 @@
+CodaCon Blog
+Copyright 2026 CodaCon AI Inc.
+
+This repository contains two types of content under separate licenses:
+
+Code, templates, and build scripts:
+  Licensed under the Apache License, Version 2.0.
+  See LICENSE for terms.
+
+Blog content under /posts:
+  Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+  See LICENSE-CONTENT for terms.
+
+Attribution requirements for blog content:
+  - Credit: CodaCon AI Inc.
+  - Canonical URL: https://codacon.net
+  - Link to license: https://creativecommons.org/licenses/by/4.0/
+  - Indicate if changes were made.

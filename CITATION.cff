@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: CODACON Blog
+message: >-
+  If you use or reference content from this blog,
+  please cite it using the metadata from this file.
+type: dataset
+authors:
+  - name: CODACON Inc.
+url: https://codacon.net
+repository-code: https://github.com/CodaConAI/blog-codacon-net
+license: CC-BY-4.0
+keywords:
+  - AI
+  - consulting
+  - software engineering
+  - blog

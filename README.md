@@ -1,6 +1,6 @@
-# CodaCon Blog
+# CODACON Blog
 
-Source for the [CodaCon](https://codacon.net) blog. Posts are written in Markdown under `/posts` and compiled into `blog.html`.
+Source for the [CODACON](https://codacon.net) blog. Posts are written in Markdown under `/posts` and compiled into `blog.html`.
 
 ## Licensing
 
@@ -26,7 +26,7 @@ Create a new Markdown file in `/posts` with this front matter:
 ---
 title: "Your Post Title"
 date: 2026-07-22
-author: CodaCon AI Inc.
+author: David — CODACON Inc.
 description: "A short summary for metadata and previews."
 license: CC-BY-4.0
 SPDX-License-Identifier: CC-BY-4.0
